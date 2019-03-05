@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 53%;
+}
+
+@media only screen and (max-width: $bp-mid) {
+  font-size: 50%;
+}
+
+@media only screen and (max-width: $bp-small) {
+  font-size: 45%;
+}
+}
+
+body {
+  padding: 3rem;
+  font-family: 'Cinzel', serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 2rem;
+  color: $color-brown-dark-3;
+  background-image:
+    linear-gradient(to right bottom,
+    rgba($color-primary-light, 0.6),
+    rgba($color-primary-dark, 0.7)),
+    url("../img/frames.jpg");
+  background-size: cover;
+  min-height: 100vh;
+
+  @media only screen and (max-width: $bp-large) {
+    background-image: none;
+    padding: 0;
+}
+}

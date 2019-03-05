@@ -1,0 +1,48 @@
+
+/*
+COLORS
+
+Primary: #f3cf7a
+Primary light: #f5dea8
+Primary dark: #f1c14f
+
+Brown light 1: #ac9292
+Brown light 2: #ac8181
+
+Brown dark 1: #775656
+Grey dark 2: #6e3b3b
+Grey dark 3: #502626
+
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .08);
+
+  --line: 1px solid var(--color-grey-light-2);
+*/
+
+//  COLORS
+
+$color-primary: #f3cf7a;
+$color-primary-light: #feffda;
+$color-primary-dark: #dbb04b;
+
+$color-brown-dark-1: #775656;
+$color-brown-dark-2: #6e3b3b;
+$color-brown-dark-3: #502626;
+
+// LINES
+
+$line: 1px solid $color-primary-dark;
+
+// SHADOWS
+
+$shadow-mid: 0 2rem 6rem rgba(0, 0, 0, .25);
+$shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .5);
+$shadow-light: 0 2rem 5rem rgba(0, 0, 0, .1);
+
+// BREAKPOINTS
+
+$bp-largest: 75em;     // 1200px
+$bp-large: 62.25em;    // 900px ???
+$bp-mid: 42em;     // 600px
+$bp-small: 35em; // 500px

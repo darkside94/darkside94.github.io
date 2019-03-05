@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./img/code_zFS_icon.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&amp;subset=latin-ext" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Vasylyna Kityk</title>
+</head>
+
+<body>
+  <div class="container">
+  
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#one" class="navigation__link">Welcome</a></li>
+        <li class="navigation__item"><a href="#two" class="navigation__link">About</a></li>
+        <li class="navigation__item"><a href="#three" class="navigation__link">Contact</a></li>
+        <li class="navigation__item"><a href="#popup" class="navigation__link navigation__link-risk" data-hover="At your own risk" onclick="document.getElementById('sound').play()">Don't go there!</a></li>
+      </ul>
+    </nav>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <h3 class="popup__text">WAZZAAP?!</h3>
+        <audio id="sound" class="popup__sound"  src="./media/5 Mar 17.04.mp3" type="audio/mpeg"></audio>
+        <a href="#" class="popup__close">&times;</a>
+      </div>
+    </div>
+
+    <header id="one" class="header">
+      <div class="header__text-box">
+        <h1 class="header__text">Hello! I'm Vasylina Kityk and I am aspiring front-end developer. I am looking for junior or internship positions in web development.</h1>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <section id="two" class="about">
+
+        <div class="about__skills">
+
+          <h2 class="heading heading--hard">Hard skills</h2>
+
+          <div class="about__icons-container about__icons-container--hard">
+
+            <div class="about__icons-line">
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-html5"></use>
+                </svg>
+                <span class="about__text">HTML5</span>
+              </div>
+            </div>
+
+            <div class="about__icons-line">
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-css3"></use>
+                </svg>
+                <span class="about__text">CSS3,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-sass"></use>
+                </svg>
+                <span class="about__text">SASS / SCSS,</span>
+              </div>
+              <div class="about__icon-box">
+                <span class="about__text">BEM,</span>
+              </div>
+              <div class="about__icon-box">
+                <span class="about__text">Responsive Web Design,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-bootstrap"></use>
+                </svg>
+                <span class="about__text">Bootstrap 4</span>
+              </div>
+            </div>
+
+            <div class="about__icons-line">
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-javascript"></use>
+                </svg>
+                <span class="about__text">JavaScript (ES6+),</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-react"></use>
+                </svg>
+                <span class="about__text">React,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-jquery"></use>
+                </svg>
+                <span class="about__text">jQuery,</span>
+              </div>
+              <div class="about__icon-box">
+                <span class="about__text">AJAX,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-mongodb"></use>
+                </svg>
+                <span class="about__text">MongoDB,</span>
+              </div>
+              <div class="about__icon-box">
+                <span class="about__text">MERN</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-python"></use>
+                </svg>
+                <span class="about__text">Python</span>
+              </div>
+            </div>
+
+            <div class="about__icons-line">
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-visualstudiocode"></use>
+                </svg>
+                <span class="about__text">Visual Studio Code,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-googlechrome"></use>
+                </svg>
+                <span class="about__text">Chrome DevTools,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-npm"></use>
+                </svg>
+                <span class="about__text">NPM,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-webpack"></use>
+                </svg>
+                <span class="about__text">WebPack,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-linux"></use>
+                </svg>
+                <span class="about__text">Linux,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-git"></use>
+                </svg>
+                <span class="about__text">Git,</span>
+              </div>
+              <div class="about__icon-box">
+                <span class="about__text">Babel</span>
+              </div>
+            </div>
+
+            <div class="about__icons-line">
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-adobephotoshop"></use>
+                </svg>
+                <span class="about__text">Adobe Photoshop,</span>
+              </div>
+              <div class="about__icon-box">
+                <svg class="about__icon">
+                  <use xlink:href="./img/sprite.svg#icon-adobelightroom"></use>
+                </svg>
+                <span class="about__text">Adobe Lightroom</span>
+              </div>
+            </div>
+
+            <div class="about__icons-line">
+              <div class="about__icon-box about__icon-box--git">
+                <svg class="about__icon about__icon--git">
+                  <use xlink:href="./img/sprite.svg#icon-github"></use>
+                </svg>
+                <a class="about__link" href="https://github.com/darkside94">&rarr; Visit My GitHub Page &larr;</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="about__imgcontainer">
+            <h2 class="heading heading--soft">Soft skills</h2>
+            <div class="about__img-box">
+              <img src="./img/37114421_2007472326182470_962242931102580736_o.jpg" alt="MePhoto" class="about__img">
+            </div>
+          </div>
+          <div class="about__icons-container about__icons-container--soft">
+
+            <div class="about__icon-box">
+              <svg class="about__icon about__icon-done">
+                <use xlink:href="./img/sprite.svg#icon-done_all"></use>
+              </svg>
+              <span class="about__text">hard-working</span>
+            </div>
+            <div class="about__icon-box">
+              <svg class="about__icon about__icon-done">
+                <use xlink:href="./img/sprite.svg#icon-done_all"></use>
+              </svg>
+              <span class="about__text">conscientious</span>
+            </div>
+            <div class="about__icon-box about__icon-done">
+              <svg class="about__icon">
+                <use xlink:href="./img/sprite.svg#icon-done_all"></use>
+              </svg>
+              <span class="about__text">fast learner</span>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <section id="three" class="contact">
+        <h2 class="heading heading--contact">Contact me</h2>
+        <span class="contact__email">vasylina.kityk&#64;gmail.com</span>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span class="footer__copy"> &copy; by Vasylyna Kityk. All rights reserved. </span>
+    </footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
